@@ -622,10 +622,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
 
                 GeneralShareMainIntent.setType("Text/plain");
-                String generalMainShareBody = "Ferrari:We are the Competition      " +
+                String generalMainShareBody = "Lamborghini:We are the Competition      " +
                         "" +
                         appLink;
-                String generalMainShareSub = "Ferrari App";
+                String generalMainShareSub = "Lamborghini App";
                 GeneralShareMainIntent.putExtra(Intent.EXTRA_SUBJECT, generalMainShareSub);
                 GeneralShareMainIntent.putExtra(Intent.EXTRA_TEXT, generalMainShareBody);
                 startActivity(Intent.createChooser(GeneralShareMainIntent, "Share Via"));
@@ -723,7 +723,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                     shareOnTwitterIntent.setType("text/plain");
                     final String appPackageName = getApplicationContext().getPackageName();
                     ShareOnTwitterString = "https://play.google.com/store/apps/details?id=" + appPackageName;
-                    shareOnTwitterIntent.putExtra(Intent.EXTRA_TEXT, "Ferrari:We are the Competition      " +
+                    shareOnTwitterIntent.putExtra(Intent.EXTRA_TEXT, "Lamborghini:We are the Competition      " +
                             "" + ShareOnTwitterString);
                     shareOnTwitterIntent.setPackage("com.twitter.android");
                     startActivity(shareOnTwitterIntent);
@@ -837,7 +837,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 "•\t0-60 mph: 2.5 s\n" +
                 "•\t0-124 mph: 6.7 s\n" +
                 "•\tTop Speed: 211 mph\n" +
-                "Ferrari’s SF90 Stradale is a stunning new hybrid supercar that produces 989 hp from a plug-in hybrid powertrain. This hybrid setup utilizes a twin-turbocharged 4.0L V8 combustion engine, paired with three electric motors.\n" +
+                "Lamborghini’s SF90 Stradale is a stunning new hybrid supercar that produces 989 hp from a plug-in hybrid powertrain. This hybrid setup utilizes a twin-turbocharged 4.0L V8 combustion engine, paired with three electric motors.\n" +
                 "Two of those electric motors are mounted on the front axle and one is mounted between the engine and the gearbox. The combined maximum output of the V8, together with the electric motors, makes this Lamborghini good for 0-60 mph in just 2.5 seconds. This powertrain is the most powerful of any Lamborghini and easily places the SF90 Stradale atop the Lamborghini lineup.\n" +
                 "The car also features an all-new chassis made of carbon fiber and aluminum. The sleek body panels and its aerodynamic shape help the model produce a whopping 860 pounds of downforce at speed; the whole profile of the car is extremely low, allowing it to slice through the air at high speeds.\n" +
                 "It has a two-piece rear wing which is derived from the company’s participation in Formula 1 racing.\n\n", "570000", R.drawable.second_categories, "1", "0");
